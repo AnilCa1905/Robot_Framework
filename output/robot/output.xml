@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230111 12:24:10.885" rpa="false" schemaversion="3">
+<suite id="s1" name="TestSuite" source="C:\Users\user\OneDrive\Desktop\Workspace\Robotic Framewok_Python\prj2\TestSuite.robot">
+<test id="s1-t1" name="Facebook URL Load" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230111 12:24:11.505" level="INFO">Opening browser 'edge' to base url 'https://www.facebook.com'.</msg>
+<status status="PASS" starttime="20230111 12:24:11.504" endtime="20230111 12:24:27.244"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230111 12:24:27.248" endtime="20230111 12:24:27.482"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Facebook</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" starttime="20230111 12:24:27.487" endtime="20230111 12:24:27.628"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230111 12:24:27.630" endtime="20230111 12:24:30.766"/>
+</kw>
+<status status="PASS" starttime="20230111 12:24:11.502" endtime="20230111 12:24:30.769"/>
+</test>
+<status status="PASS" starttime="20230111 12:24:11.124" endtime="20230111 12:24:30.776"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Jan 11 16:24:55 IST 2023","Wed Jan 11 16:24:57 IST 2023","1935","","TestSuite","","","","Click on cross browser testing button",""
+"passed","Wed Jan 11 16:24:43 IST 2023","Wed Jan 11 16:24:55 IST 2023","11994","","TestSuite","","","","Launching the url for SauceLab",""
+"passed","Wed Jan 11 16:24:57 IST 2023","Wed Jan 11 16:25:05 IST 2023","8401","","TestSuite","","","","click on Try it free option",""
+"failed","Wed Jan 11 14:46:30 IST 2023","Wed Jan 11 14:46:38 IST 2023","7721","","TestSuite","","","","Facebook URL Load",""
